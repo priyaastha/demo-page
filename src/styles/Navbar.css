@@ -1,0 +1,32 @@
+.nav{
+    background-color: #fff;
+    border-bottom: 1px solid hwb(219 73% 1%);
+    box-shadow: none;
+    display: flex;
+}
+
+.items{
+    color: #1D2130;
+    font-weight: 500;
+}
+
+.butngrad {
+    color: white;
+    background-image: linear-gradient(to right, #270082 0%, #2A95DD 51%, #270082  100%);
+    margin: auto;
+    padding: 15px 85px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: flex;
+}
+
+.butngrad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+

@@ -1,0 +1,6 @@
+.astep{
+    background-image: linear-gradient(to right, #ffffff 0%, #b2b8bd 100%);
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 10px 20px;
+}

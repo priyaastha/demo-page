@@ -1,0 +1,129 @@
+*{
+    line-height: 1.5;
+}
+
+.gradtext{
+    background: linear-gradient(to right, #270082 0%, #2A95DD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 1000;
+}
+
+.orangeText{
+    color: #F76922;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.butngrad {
+    color: white;
+    border-radius: 100px;
+    background-image: linear-gradient(to right, #270082 0%, #2A95DD 51%, #270082  100%);
+    transition: 0.5s;
+    background-size: 200% auto;            
+    box-shadow: 0 0 20px #eee;
+    display: flex;
+}
+
+.butngrad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.butngradout{
+    color: white;
+    background-image: linear-gradient(to right, #270082 0%, #2A95DD 51%, #270082  100%);
+    transition: 0.5s;
+    background-size: 200% auto;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.grow{
+    color:#F76922;
+}
+
+.trust{
+    background-color: #263238;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    box-shadow: 0 0 20px #eee;
+}
+
+.ic{
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    align-self: center;
+}
+
+.do{
+    background-color: #2A95DD0F;
+    padding: 50px 20px;
+    border-radius: 1em;
+}
+
+.ticks{
+    border-color: white;
+    font-size: 1.5em;
+}
+
+.problems{
+    background-color: #1D2130;
+    padding-top: 40px;
+    box-shadow: 0 0 20px #eee;
+}
+
+.greydiv{
+    background-color: #ffffffda;
+    margin-top: 80px;
+    margin-bottom: 0%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top-right-radius: 40px;
+
+}
+
+.pro{
+    margin: 10%;
+}
+
+.fsec{
+    background-color: #1D2130;
+    color:#eee;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.plat{
+    border: 50px;
+}
+
+.texts{
+    margin-left: 8%;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.aga{
+    line-height: normal;
+    margin-left: 8%;
+    font-size: 3em;
+    font-weight: 1000;
+}
+
+.pric{
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 400;
+    
+}

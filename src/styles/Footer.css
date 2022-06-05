@@ -1,0 +1,25 @@
+*{
+    line-height: 2;
+}
+
+.footer{
+    background-color: #1D2130;
+}
+
+.logo{
+    margin-top: 5%;
+    margin-bottom: auto;
+    margin-left: 20%;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    align-self: center;
+}
+
+.foottitle{
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+}
